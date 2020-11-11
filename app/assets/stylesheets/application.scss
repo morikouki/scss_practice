@@ -39,6 +39,11 @@ $h2_color: #6272a1;
 }
 
 .book-box {
+
+	table {
+		width: 80%;
+	}
+
 	@include box;
 
 	h2 {
