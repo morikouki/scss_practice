@@ -66,3 +66,11 @@ $h2_color: #6272a1;
 		font-size: 20px;
 	}
 }
+
+.book-edit-box {
+	@include box;
+
+	h2 {
+		color: $h2_color;
+	}
+}
