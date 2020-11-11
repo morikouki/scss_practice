@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+$h2_color: #6272a1;
+@mixin box {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.top-box {
+	@include box;
+
+	h2 {
+		color: $h2_color;
+	}
+
+	p {
+		margin-left: 30px;
+		line-height: 70px;
+	}
+
+	span {
+		margin-left: 30px;
+	}
+}
+
+.book-box {
+	@include box;
+
+	h2 {
+		color: $h2_color;
+	}
+}
